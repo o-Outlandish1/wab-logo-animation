@@ -1,9 +1,10 @@
-const Server = require('express');
 const
-  HOST = 'o.Outlandish',
-  PORT = 36669;
+  Express = require('express'),
+  Server = Express();
 
-Server.use(express.static('public'));
+const PORT = 36669;
 
-Server.listen(PORT, 'Running o.Out!')
+Server.use(Express.static('public'));
+
+Server.listen(PORT, console.log('Running o.Out!'))
 

@@ -1,0 +1,47 @@
+  @font-face{font-family: 'Benn-Free';
+  src: url(./fonts/Benn-Free.woff)}
+   @font-face{font-family: 'Coconat-Regluar';
+   src: url(./fonts/Benn-Free.woff)}
+   @font-face{font-family: 'Galderglynn Esquire W00 Book';
+   src: url(./fonts/Benn-Free.woff)}
+   @font-face{font-family: 'Kaerukaeru-Regular';
+   src: url(./fonts/Kaerukaeru-Regular.woff)}
+   @font-face{font-family: 'MAZIUSREVIEW20.09-Regular';
+   src: url(./fonts/MAZIUSREVIEW20.09-Regular.woff)}
+   @font-face{font-family: 'Millimetre-Regular_web';
+   src: url(./fonts/Millimetre-Regular_web.woff)}
+   @font-face{font-family: 'Mobile Sans';
+   src: url(./fonts/Mobile-Sans.woff)}
+   @font-face{font-family: 'Ortica-Bold';
+   src: url(./fonts/Ortica-Bold.woff)}
+   @font-face{font-family: 'Pilowlava-Regular';
+   src: url(./fonts/Pilowlava-Regular.woff)}
+   @font-face{font-family: 'Porpora-Regular';
+   src: url(./fonts/Porpora-Regular.woff)}
+   @font-face{font-family: 'Redaction_50-Regular';
+   src: url(./fonts/Redaction_50-Regular.woff)}
+   @font-face{font-family: 'Ribes-Black';
+   src: url(./fonts/Ribes-Black.woff)}
+   @font-face{font-family: 'TINY5x3-100';
+   src: url(./fonts/TINY5x3-100.woff)}
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+#logo {
+  float: inline-start;
+  padding: 3%;
+  font-family: 'Neue Helvetica', serif;
+  font-size: 300%;
+  color: white;
+  transition-delay: font-family 10s;
+
+}
+
+span#logo {
+  position: sticky;
+}
